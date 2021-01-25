@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "server of mern-crud app",
   "private": true,
-"engines": {
+  "engines": {
 	"node": "12.19.0",
 	"npm": "7.1.0"
-},
+  },
   "scripts": {
     "start": "node server.js",
     "start-server": "nodemon server.js --ignore '../client/'",
